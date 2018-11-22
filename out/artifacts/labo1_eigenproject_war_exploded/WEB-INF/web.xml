@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/error.jsp</location>
+    </error-page>
+    <welcome-file-list>
+        <welcome-file>Controller?action=indexhandler</welcome-file>
+    </welcome-file-list>
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:postgresql://databanken.ucll.be:51819/2TX33</param-value>
+    </context-param>
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>local_r0703601</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>dvrJéU7R0U23eYi:</param-value>
+    </context-param>
+    <context-param>
+        <param-name>currentSchema</param-name>
+        <param-value>r0703601</param-value>
+    </context-param>
+    <context-param>
+        <param-name>ssl</param-name>
+        <param-value>true</param-value>
+    </context-param>
+    <context-param>
+        <param-name>sslfactory</param-name>
+        <param-value>org.postgresql.ssl.NonValidatingFactory</param-value>
+    </context-param>
+    <context-param>
+        <param-name>sslmode</param-name>
+        <param-value>prefer</param-value>
+    </context-param>
+</web-app>

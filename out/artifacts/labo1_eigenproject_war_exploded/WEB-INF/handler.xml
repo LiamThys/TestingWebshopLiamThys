@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="productoverview">ui.controller.handler.ProductOverviewHandler</entry>
+    <entry key="confirmSignup">controller.handler.ConfirmSignupHandler</entry>
+    <entry key="signUp">controller.handler.SignUpHandler</entry>
+</properties>
